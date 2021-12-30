@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    background-image: url(imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: right;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+.parteizquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    padding-top: 0px;
+    padding-bottom: 59px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    max-width: 500px;
+    height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 0px;
+    position: absolute;
+   
+}
+
+.formulario{
+    border: 0px;
+    display: flex;
+    background-color: #fff;
+    height: 650px;
+    width: 450px;
+    left: 80px;
+    top: 0px;
+    border-radius: 0px;
+    margin-top: auto;
+
+
+}
+h2{
+    height: 28px;
+width: 500px;
+left: 0px;
+top: 143.5px;
+border-radius: nullpx;
+
+}
+
+span{
+    color: #32D5A4;
+    font-weight: 700;
+}
+fieldset{
+    border: 0px;
+    height: 290px;
+width: 450px;
+left: 0px;
+top: 216.5px;
+border-radius: 0px;
+line-height: 40px;
+margin: 45px 0px;
+}
+input[type="email"], input[type="password"]{
+
+    height: 40px;
+    width: 450px;
+    left: 0px;
+    top: 28px;
+    border-radius: 8px;
+    padding: 12px, 15px, 12px, 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 15px;
+
+    position: static;
+    width: 450px;
+    height: 40px;
+    left: 0px;
+    top: 28px;
+    background: #F8F8F9;
+    border-radius: 8px;
+    border: 0px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.arriba{
+    font-weight: 700;
+}
+
+.cosas{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+    position: static;
+width: 405px;
+height: 24px;
+left: 0px;
+border-radius: 0px;
+}
+.olvidado{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.2px;
+margin-left: 100px;
+color: #32D5A4;
+}
+
+.button{
+    height: 40px;
+width: 450px;
+left: 0px;
+top: 250px;
+border-radius: 8px;
+padding: 5px, 14px, 5px, 10px;
+position: static;
+width: 450px;
+height: 40px;
+left: 0px;
+top: 250px;
+border: 0px;
+background: #32D5A4;
+border-radius: 8px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.foot{
+    height: 60px;
+    width: 450px;
+    left: 80px;
+    top: 760px;
+    border-radius: 0px;
+    font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color: #A5A8B3;
+}
+.cosas{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.campos{
+    height: 166px;
+width: 450px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+.privacidad{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+letter-spacing: -0.02em;
+text-decoration-line: underline;
+color: #A5A8B3;
+}
